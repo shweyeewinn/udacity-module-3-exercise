@@ -126,11 +126,12 @@ class Excercise1 extends Component {
     return (
       <div>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Lesson 3 - State Management</h1>
-          <p>Excercise 1 - Passing Data</p>
+
         </header>
-        <h2>Favourite movies</h2>
+
+        <h2>Excercise 1 - Passing Data</h2>
+        <h3>Favourite Movie Lists</h3>
         <ul>
           {this.favouriteMovieList()}
         </ul>
