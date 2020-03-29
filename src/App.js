@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Excercise1 from './components/Excercise1';
+/*
+Use React and the data below to display a list of users alongside their favorite movies.
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+For detailed instructions, refer to instructions.md.
+*/
+
+class App extends Component {
+
+
+  render() {
+    return (
+      <div className="main-content">
+        <Excercise1 />
+      </div>
+    );
+  }
 }
 
 export default App;
